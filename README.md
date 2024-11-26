@@ -1,6 +1,6 @@
 # Bank-Management
 
-1. INTRODUCTION
+# 1. INTRODUCTION
 • Purpose:
 o Automates key banking operations like customer registration, account
 management, loan processing, and transaction tracking.
@@ -16,7 +16,7 @@ o Key features:
 ▪ Mini-statements and transaction history.
 o Ensures data consistency, integrity, and confidentiality with real-time data access.
 
-2. OVERALL DESCRIPTION
+# 2. OVERALL DESCRIPTION
 • Product Perspective:
 o Integrates Java-based backend logic with a MySQL database.
 o Replaces manual banking systems by automating operations.
@@ -40,7 +40,7 @@ o Backend: Java.
 o Database: MySQL.
 o Reliable internet connection required for multi-user scenarios.
 
-3. FUNCTIONAL REQUIREMENTS
+# 3. FUNCTIONAL REQUIREMENTS
 • Customer Management:
 o Register new customers with unique email and phone validation.
 o Update customer details like name, email, and phone.
@@ -60,7 +60,7 @@ o View detailed loan history.
 o Assign employees to specific branches.
 o Maintain employee roles (e.g., Manager, Teller, Loan Officer).
 
-4. NON-FUNCTIONAL REQUIREMENTS
+# 4. NON-FUNCTIONAL REQUIREMENTS
 • Performance:
 o Handle up to 100 concurrent users.
 o Log transactions within 1 second.
@@ -74,7 +74,7 @@ o User-friendly console-based interface.
 o Extendable for new branches and employees.
 o Capable of managing increasing transactions efficiently.
 
-5. SYSTEM FEATURES
+# 5. SYSTEM FEATURES
 • Database Structure:
 o Includes tables for Branches, Customers, Accounts, Transactions, Employees,
 and Loans.
